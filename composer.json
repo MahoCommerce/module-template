@@ -22,5 +22,16 @@
         "platform": {
             "php": "8.3"
         }
+    },
+    "scripts": {
+        "cs": "vendor/bin/php-cs-fixer fix --dry-run --diff",
+        "cs-fix": "vendor/bin/php-cs-fixer fix",
+        "phpstan": "vendor/bin/phpstan analyze",
+        "rector": "vendor/bin/rector --dry-run",
+        "check": [
+            "@cs",
+            "@phpstan",
+            "@rector"
+        ]
     }
 }

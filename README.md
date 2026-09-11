@@ -26,12 +26,12 @@ TODO: how to enable and configure the module from the Maho admin (System → Con
 
 This module ships with the standard Maho CI gates:
 
-- **PHPStan** (level 8) — `vendor/bin/phpstan analyze`
-- **Rector** (dry-run) — `vendor/bin/rector -c .rector.php --dry-run`
-- **PHP CS Fixer** (dry-run) — `vendor/bin/php-cs-fixer fix --dry-run`
+- **PHPStan** (level 8) — `composer phpstan`
+- **Rector** (dry-run) — `composer rector`
+- **PHP CS Fixer** (dry-run) — `composer cs` (or `composer cs-fix` to apply)
 - **PHP / XML syntax checks** — automatic on CI
 
-Run `composer install` and you can execute any of the above locally before pushing.
+Run `composer install` and you can execute any of the above locally before pushing, or run them all at once with `composer check`.
 
 ---
 
