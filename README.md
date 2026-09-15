@@ -2,14 +2,14 @@
 
 ![Maho Commerce](https://img.shields.io/badge/Maho_Commerce-module-orange)
 ![License](https://img.shields.io/badge/license-OSL--3.0-blue)
-![PHP](https://img.shields.io/badge/php-%3E%3D8.3-8892BF)
+![PHP](https://img.shields.io/badge/php-%3E%3D8.5-8892BF)
 ![PHPStan Level](https://img.shields.io/badge/PHPStan-level%208-brightgreen)
 
 **TODO: one-line pitch.** Longer description of what this module does, who it's for, and the integration it provides for [Maho Commerce](https://mahocommerce.com).
 
 ## Requirements
 
-- PHP >= 8.3
+- PHP >= 8.5
 - Maho Commerce
 
 ## Installation
@@ -27,7 +27,7 @@ TODO: how to enable and configure the module from the Maho admin (System → Con
 This module ships with the standard Maho CI gates:
 
 - **PHPStan** (level 8) — `vendor/bin/phpstan analyze`
-- **Rector** (dry-run) — `vendor/bin/rector -c .rector.php --dry-run`
+- **Rector** (dry-run) — `vendor/bin/rector --dry-run`
 - **PHP CS Fixer** (dry-run) — `vendor/bin/php-cs-fixer fix --dry-run`
 - **PHP / XML syntax checks** — automatic on CI
 
