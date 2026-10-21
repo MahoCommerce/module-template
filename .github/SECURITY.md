@@ -1,9 +1,9 @@
 ## Reporting Security Issues
 
-If you believe you have found a security vulnerability in MahoCommerce/module-template, please report it through coordinated disclosure.
+If you believe you have found a security vulnerability in MahoCommerce/module-NAME, please report it through coordinated disclosure.
 
 **Please do not report security vulnerabilities through the repository issues, discussions, or pull requests**.
-Instead, please [open a new GitHub security advisory](https://github.com/MahoCommerce/module-template/security/advisories/new).
+Instead, please [open a new GitHub security advisory](https://github.com/MahoCommerce/module-NAME/security/advisories/new).
 
 Please include the following information to help us better understand and resolve the issue:
 
