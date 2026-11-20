@@ -45,6 +45,4 @@ jobs:
                       phpstan-${{ matrix.php-version }}-main
 
             - name: Run PHPStan
-              # The template has no application files until a module is added.
-              if: hashFiles('app/**/*.php', 'app/**/*.phtml') != ''
               run: XDEBUG_MODE=off php vendor/bin/phpstan analyze -vvv

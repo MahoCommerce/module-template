@@ -1,5 +1,5 @@
 {
-    "name": "mahocommerce/module-name",
+    "name": "mahocommerce/module-NAME",
     "description": "TODO: short description of what this module does",
     "license": "OSL-3.0",
     "type": "maho-module",
